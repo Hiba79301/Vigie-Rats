@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/vgrats.css">
+        <link rel="stylesheet" type="text/css" href="css/normilize.css">
+        <title>Désinsectisation</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@300&family=Open+Sans:wght@400;700&family=Poppins:wght@100;
+        200;300;400;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="/VGrats.html" class="logo"><img src="image/Vigie-Rats (9).jpg" alt=""></a>
+                <nav class="nav">
+                    <i class="fas fa-bars toggel-menu"></i>
+                <ul>
+                    <li class="nav-item"><a href="/" id="accueil-link" class="nav-link">Acceuil</a></li>
+                    <li class="nav-item"><a href="/Désinfection.html" id="Désinfection-link"  class="nav-link">Désinfection</a></li>
+                    <li class="nav-item"><a href="/Dératisation.html" id="Dératisation-link"  class="nav-link">Dératisation</a></li>
+                    <li class="nav-item"><a href="/Désinsectisation.html" id="Désinsectisation-link"  class="nav-link">Désinsectisation</a></li>
+                    <li class="nav-item"><a href="/Nettoyage.html" id="Nettoyage-link"  class="nav-link">Nettoyage</a></li>
+                    <li class="nav-item"><a href="/Jardinage.html" id="Jardinage-link"  class="nav-link">Jardinage</a></li>
+                    <li class="nav-item"><a href="/Galerie.html" id="Galerie-link"  class="nav-link">Galerie</a></li>
+                    <li class="nav-item"><a href="/Contact.html" id="Contactez-nous-link"  class="nav-link">Contactez-nous</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="landing-pages">
+            <div class="overlay">
+                <div class="text">
+                    <div class="content">
+                        <h2>Désinsectisation</h2>
+                        <p>Élimination efficace des nuisibles avec sécurité et prévention</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="devis-desinsectisation" id="devis-desinsectisation">
+            <div class="container">
+                <div class="text">  
+                    <h1>La désinsectisation par des professionnels de la lutte contre les nuisibles</h1>
+                    <p>A la maison ou en entreprise, les insectes représentent une grande partie des parasites au Maroc qui peuvent nuire à votre santé,
+                         et vous empêchent de vivre dans un environnement sain. Pouvant être la cause de plusieurs maladies infectieuses, les insectes détériorent les matériaux mais également les aliments (commerces, maisons, résidences, restaurants…).</p>
+                    <p>Pour chaque type d’insectes une désinsectisation spéciale.</p>
+                    <div class="box">
+                        Vigie-Rats Désinsectisation – Avant chaque traitement, il s’agit d’identifier l’espèce à combattre et les facteurs favorables à son développement : les locaux vide-ordures ou vide-sanitaire, 
+                        les zones humides en général, la présence de matière organique en décomposition ou encore la végétation proche des habitations. 
+                        Il existe divers type de traitements et de mode d’application, chacun spécifique à l’espèce visée.
+                    </div>
+                </div>
+                 <form action="" class="form-devis">
+                    <h2>Demander un devis</h2>
+                    <div class="form-group">
+                        <label for="nom-prenom">Nom et Prénom*</label>
+                        <input type="text" class="main-input name" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="societe">Société / particulier</label>
+                        <input type="text" class="main-input société" name="societe" id="societe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" class="main-input" name="mail" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telephone*</label>
+                        <input type="text" class="main-input phone" name="phone" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="ville">Ville*</label>
+                        <input type="text" class="main-input ville" name="ville" id="ville">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service souhaité*</label>
+                        <select name="your-service" id="service" class="services">
+                          <option value="Désinfection">Désinfection</option>
+                          <option value="Nettoyage">Nettoyage</option>
+                          <option value="Dératisation">Dératisation</option>
+                          <option value="Désinsectisation">Désinsectisation</option>
+                          <option value="Jardinage">Jardinage</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="superficie">Superficie à traiter</label>
+                        <input type="text" class="main-input superficie" name="superficie" id="superficie">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea name="message" class="main-input msg" id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="ENVOYER" id="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="infos-desinsectisation">
+            <div class="container">
+                <h1>Nos solutions de désinsectisation pour chaque type d'insectes</h1>
+                <p>4 grandes familles d’insectes nuisibles sont répertoriées au Maroc : </p>
+                <ul>
+                    <li><h5>Les insectes rampants </h5>
+                            <p>qui ont besoin d’une surface pour se déplacer, comme les cafards, les fourmis, 
+                                les punaises, les araignées, les scorpions mais aussi les vers. </p>
+                    </li>
+                    <li><h5>Les insectes volants</h5>
+                            <p>qui sont souvent autour des espaces verts. Nous distinguons alors les abeilles, les guêpes, les frelons et les mites, 
+                                mais aussi les insectes qui naissent à partir de matières organiques en décomposition, tels que les mouches, moucherons et moustiques.</p>
+                    </li>
+                    <li><h5>Les insectes de passages</h5>
+                        <p>qui peuvent causer dans certains cas des dégâts majeurs aux plantes et à certains types de matériaux. Comme les cloportes, 
+                            la loche jaune, la tégénaire, le grand charançon des jardins, le poisson d’argent ou lépisme, et les callidies.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo1">
+                        <a href="#" class="logo">Vigie Rats</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>VR est un site web de la société Vigie-Rats, entreprise marocaine spécialisée dans la lutte contre les nuisibles au Maroc. Avec plus de 11 ans 
+                        d'expérience dans le secteur des services 3D: Dératisation, Désinsectisation et Désinfection, Vigie-Rats accompagne ses clients professionnels et particuliers pour leur garantir un environnement sain et dénué de toute infestation de nuisibles.</p>
+                </div>
+                <div class="box">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:vigierats@gmail.com">vigierats@gmail.com</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:05 22 89 57 60">05 22 89 57 60</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:0666 02 61 59">0666 02 61 59</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="#">3, Rue Ait Ourir Bd. Moulay Youssef – Casablanca</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fas fa-home"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pages">
+                        <h3>Pages</h3>
+                        <ul>
+                            <li><a href="/VGrats.html">Acceuil</a></li>
+                            <li><a href="/Désinfection.html">Désinfection</a></li>
+                            <li><a href="/Dératisation.html">Dératisation</a></li>
+                            <li><a href="/Désinsectisation.html">Désinsectisation</a></li>
+                            <li><a href="/Nettoyage.html">Nettoyage</a></li>
+                            <li><a href="/Galerie.html">Galerie</a></li>
+                            <li><a href="/Contact.html">Contactez-nous</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                        <div class="localisation">
+                            <h3>Trouvez-nous</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253.50904197298905!2d-7.6340733894972335!3d33.59795960731068!2m3!1f0!2f0!3f0!3m2!1i1024
+                            !2i768!4f13.1!3m3!1m2!1s0xda7d2f33b20c76d%3A0x52ed6117024ef9f3!2s3%20Rue%20A%C3%AFt%20Ourir%2C%20Casablanca%2020250!5e0!3m2!1sfr!2sma!4v1691014726524!5m2!1sfr!2sma" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright-text"> 
+                    &copy; 2023 - Vigie-Rats Maroc - Tous droits réservés.
+                </div>
+            </div>
+        </div>
+        <script defer  src="myscript.js"></script>
+    </body>
+</html>

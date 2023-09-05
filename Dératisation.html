@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="css/vgrats.css">
+        <link rel="stylesheet" type="text/css" href="css/normilize.css">
+        <title>Dératisation</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"  />
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Manrope&family=Montserrat:wght@300&family=Open+Sans:wght@400;700&family=Poppins:wght@100;
+        200;300;400;600;700&family=Work+Sans:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+        <script src="https://smtpjs.com/v3/smtp.js"></script>
+
+        <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
+        <link rel="manifest" href="favicon/site.webmanifest">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="theme-color" content="#ffffff">
+    </head>
+    <body>
+        <header>
+            <div class="container">
+                <a href="/VGrats.html" class="logo"><img src="image/Vigie-Rats (9).jpg" alt=""></a>
+                <nav class="nav">
+                    <i class="fas fa-bars toggel-menu"></i>
+                <ul>
+                    <li class="nav-item"><a href="/" id="accueil-link" class="nav-link">Acceuil</a></li>
+                    <li class="nav-item"><a href="/Désinfection.html" id="Désinfection-link"  class="nav-link">Désinfection</a></li>
+                    <li class="nav-item"><a href="/Dératisation.html" id="Dératisation-link"  class="nav-link">Dératisation</a></li>
+                    <li class="nav-item"><a href="/Désinsectisation.html" id="Désinsectisation-link"  class="nav-link">Désinsectisation</a></li>
+                    <li class="nav-item"><a href="/Nettoyage.html" id="Nettoyage-link"  class="nav-link">Nettoyage</a></li>
+                    <li class="nav-item"><a href="/Jardinage.html" id="Jardinage-link"  class="nav-link">Jardinage</a></li>
+                    <li class="nav-item"><a href="/Galerie.html" id="Galerie-link"  class="nav-link">Galerie</a></li>
+                    <li class="nav-item"><a href="/Contact.html" id="Contactez-nous-link"  class="nav-link">Contactez-nous</a></li>
+                </ul>
+                </nav>
+            </div>
+        </header>
+        <div class="landing-pages">
+            <div class="overlay">
+                <div class="text">
+                    <div class="content">
+                        <h2>Dératistion</h2>
+                        <p>Comptez sur Vigie-Rats pour la dératisation de votre bureau, magasin ou maison au Maroc</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="devis-deratisation" id="devis-deratisation">
+            <div class="container">
+                <div class="text">  
+                    <h1>Pourquoi faire appel aux services de Vigie-Rats pour une dératisation ?</h1>
+                    <p>Les rongeurs peuvent représenter un véritable problème pour votre santé ou pour votre business. Dès qu’ils parviennent à s’introduire chez vous, ils ne tardent pas à s’approprier les lieux,  et commencent à se reproduire très rapidement. Les rats, les mulots, et les souris sont les espèces les plus répandues au Maroc. Ils peuvent causer de lourds dégâts matériels, mais aussi véhiculer un grand nombre de maladies très graves telles que la Leptospirose, le Typhus, la Peste, la Rage, la Tuberculose… 
+                        et une multitude d’autres virus très dangereux pour votre santé et celle de vos proches ou collaborateurs.</p>
+                    <div class="box">
+                        Vigie-Rats Dératisation – Parce que chaque cas est unique, à chaque intervention nous commençons par une inspection approfondie des lieux, (recherche de nids, lieux de passage, source de nourriture, etc.) et ensuite 
+                        nos techniciens vous proposeront une solution de lutte adaptée qui mettra fin à tous vos tracas.
+                    </div>
+                </div>
+                 <form action="" class="form-devis">
+                    <h2>Demander un devis</h2>
+                    <div class="form-group">
+                        <label for="nom-prenom">Nom et Prénom*</label>
+                        <input type="text" class="main-input name" name="name" id="name">
+                    </div>
+                    <div class="form-group">
+                        <label for="societe">Société / particulier</label>
+                        <input type="text" class="main-input société" name="societe" id="societe">
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email*</label>
+                        <input type="email" class="main-input" name="mail" id="email">
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Telephone*</label>
+                        <input type="text" class="main-input phone" name="phone" id="phone">
+                    </div>
+                    <div class="form-group">
+                        <label for="ville">Ville*</label>
+                        <input type="text" class="main-input ville" name="ville" id="ville">
+                    </div>
+                    <div class="form-group">
+                        <label for="service">Service souhaité*</label>
+                        <select name="your-service" id="service" class="services">
+                          <option value="Désinfection">Désinfection</option>
+                          <option value="Nettoyage">Nettoyage</option>
+                          <option value="Dératisation">Dératisation</option>
+                          <option value="Désinsectisation">Désinsectisation</option>
+                          <option value="Jardinage">Jardinage</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="superficie">Superficie à traiter</label>
+                        <input type="text" class="main-input superficie" name="superficie" id="superficie">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Votre message</label>
+                        <textarea name="message" class="main-input msg" id="message"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <input type="submit" value="ENVOYER" id="submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="infos">
+            <div class="container">
+                <h1>Notre stratégie de dératisation</h1>
+                <ul>
+                    <li><h5>Inspections des lieux</h5>
+                            <p>Les rongeurs s’installent dans tous les locaux qui réunissent nourriture, humidité et chaleur : 
+                                administrations et bureaux, réceptions de marchandises, réserves, stands de ventes, salles de repos, 
+                                cuisines et les divers systèmes de chauffage et de ventilation qui représentent de véritables lieux de prédilection pour les rongeurs.</p>
+                            <p>C’est pour cela que SBS pose des barrages anti-proliférations contre tous types de rongeurs. Nos techniciens examinent les traces de passage, le nombre, la forme, la taille des excréments et leur nature ainsi que l’étendue des dégâts occasionnés. 
+                                Nous arrivons ainsi à déterminer l’espèce de rongeurs incriminés et la source d’infestation.</p>
+                            <p>La source d’infestation et d’autant plus importante à repérer que les rongeurs ne nichent pas obligatoirement sur les lieux où sont constatés les dégâts.</p>
+                    </li>
+                    <li><h5>Traitement</h5>
+                        <ul>
+                            <li><h6>L’extermination grâce à des appâts très élaborés :</h6>
+                                <ul>
+                                    <li>l’usage de produits spécifiques à chaque espèce de rongeur</li>
+                                    <li>l’appâtage avec des substances chimiques irrésistibles pour tous types de rongeurs</li>
+                                    <li>l’usage de rodenticides contenant des anticoagulants extrêmement puissants qui ne laissent aucune chance de survie à leurs victimes</li>
+                                </ul>
+                            </li>
+                            <li><h6>Mise en place consciencieuse des appâts :</h6>
+                                <ul>
+                                    <li>Déposés en blocs fermés et inaccessibles aux enfants et aux animaux domestiques (chiens, chats, etc.)
+                                         nos produits ne sont accessibles que par les rongeurs et ont un effet fulgurant sur les rats et les 
+                                         souris. Une méthode propre car les rongeurs meurent dans leur foyer. Sans danger pour votre famille, 
+                                         vos employés ou vos animaux domestiques</li>
+                                    <li>Boites en plastique de haute qualité, inviolables et très résistants</li>
+                                    <li>Nous contrôlons régulièrement nos appâts et procédons à leur remplacement systématique</li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><h5>Prévetion</h5>
+                        <ul>
+                            <li><h6>Éliminer les sources d’alimentation des rongeurs :</h6>
+                                <p>Le stockage des denrées alimentaires doit être fait correctement, ne pas déposer la nourriture à même le sol, ou adossée aux murs. 
+                                Surélevez vos sacs de provisions, nettoyez bien votre cuisine et ne laissez pas s’accumuler vos ordures. 
+                                Tout en vérifiant qu’il n’y a aucune trace d’humidité dans vos locaux.</p>
+                            </li>
+                            <li><h6>Détruire les habitats des rongeurs :</h6>
+                                <p>Il faut anéantir tous leurs abris potentiels à proximité, raser court l’herbe tout autour des lieux, 
+                                ensuite rogner les plantes par le bas pour les garder distantes du sol.</p>
+                            </li>
+                            <li><h6>Empêcher les rongeurs de pénétrer :</h6>
+                                <p>Verrouiller toutes les portes et fenêtres, 
+                                boucher les cavités dans les murs et cloisons, et grillager les égouts et autres sorties de canalisations.</p>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="dangers">
+            <div class="container">
+                <div class="text">
+                    <h1>Les dangers pour votre entreprise ou votre maison</h1>
+                    <p>Les rats et les souris et surtout les surmulots possèdent des dents extrêmement affutées. 
+                        Ils rongent quasiment tout ce qu’ils trouvent et causent des dégâts considérables :</p>
+                    <ul>
+                        <li>Appareils électroménagers, en rongeant les câbles électriques ils peuvent engendrer un court circuit parfois fatale, 
+                            tel qu’un incendie ou une explosion si un conduit de gaz est affecté.</li>
+                        <li>Tuyauteries et canalisations, en causant des fuites d’eau souvent difficiles à localiser et réparer si elles sont encastrées.</li>
+                        <li>Boiseries et meubles en bois sont facilement dégradés</li>
+                        <li>Matériaux tels que les isolants (laine de verre, ouate) et autres matières friables</li>
+                        <li>Tissus, vêtements et tapis</li>
+                        <li>Nourriture et denrées alimentaires peuvent être consommées par les rats, mais surtout deviennent inutilisables du fait de 
+                            leur souillure par les excréments des rongeurs</li>
+                    </ul>
+                </div>
+                <div class="images">
+                    <img src="image/istock-950581364.jpg" alt="">
+                    <img src="image/2022_05_30_2.jpg" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="box">
+            <div class="container">
+            <div class="txt">
+                <h1>Poste d'appâtage de rongeurs</h1>
+            <p>Ce poste d’appatage  nous permet de disposer des appâts de natures différentes  : ainti-coagulant en forme de pâte, de grains ou de cubes. 
+                Ils permettent la protection des appâts de l’environnement extérieur. Fermés à clef, ces boites sont inaccessibles aux enfants ou aux animaux 
+                domestiques comme les chiens et chats.</p>
+            <p>Suivant les caractéristiques de l’infestation et du site traité, l’élimination de la population des rongeurs sera significative en quelques semaines. 
+                Ce temps est nécessaire pour permettre à tous les rats de consommer les appâts rotonticides.</p>
+            </div>
+            <div class="image">
+                <img src="image/article39-chemin-rats-poste-appatage.png" alt="">
+            </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="container">
+                <div class="box">
+                    <div class="logo1">
+                        <a href="#" class="logo">Vigie Rats</a>
+                    </div>
+                </div>
+                <div class="box">
+                    <p>VR est un site web de la société Vigie-Rats, entreprise marocaine spécialisée dans la lutte contre les nuisibles au Maroc. Avec plus de 11 ans 
+                        d'expérience dans le secteur des services 3D: Dératisation, Désinsectisation et Désinfection, Vigie-Rats accompagne ses clients professionnels et particuliers pour leur garantir un environnement sain et dénué de toute infestation de nuisibles.</p>
+                </div>
+                <div class="box">
+                    <div class="info">
+                        <ul>
+                            <li><i class="fa-solid fa-envelope"></i><a href="mailto:vigierats@gmail.com">vigierats@gmail.com</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:05 22 89 57 60">05 22 89 57 60</a></li>
+                            <li><i class="fa-solid fa-phone"></i><a href="tel:0666 02 61 59">0666 02 61 59</a></li>
+                            <li><i class="fa-solid fa-location-dot"></i><a href="#">3, Rue Ait Ourir Bd. Moulay Youssef – Casablanca</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="social-icons">
+                        <i class="fab fa-facebook-f"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fas fa-home"></i>
+                        <i class="fab fa-linkedin"></i>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="pages">
+                        <h3>Pages</h3>
+                        <ul>
+                            <li><a href="/VGrats.html">Acceuil</a></li>
+                            <li><a href="/Désinfection.html">Désinfection</a></li>
+                            <li><a href="/Dératisation.html">Dératisation</a></li>
+                            <li><a href="/Désinsectisation.html">Désinsectisation</a></li>
+                            <li><a href="/Nettoyage.html">Nettoyage</a></li>
+                            <li><a href="/Galerie.html">Galerie</a></li>
+                            <li><a href="/Contact.html">Contactez-nous</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="box">
+                        <div class="localisation">
+                            <h3>Trouvez-nous</h3>
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d253.50904197298905!2d-7.6340733894972335!3d33.59795960731068!2m3!1f0!2f0!3f0!3m2!1i1024
+                            !2i768!4f13.1!3m3!1m2!1s0xda7d2f33b20c76d%3A0x52ed6117024ef9f3!2s3%20Rue%20A%C3%AFt%20Ourir%2C%20Casablanca%2020250!5e0!3m2!1sfr!2sma!4v1691014726524!5m2!1sfr!2sma" 
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                </div>
+            </div>
+            
+        </div>
+        <div class="footer-bottom">
+            <div class="container">
+                <div class="copyright-text"> 
+                    &copy; 2023 - Vigie-Rats Maroc - Tous droits réservés.
+                </div>
+            </div>
+        </div>
+        <script  defer src="myscript.js"></script>
+    </body>
+</html>
